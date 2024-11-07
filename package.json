@@ -1,0 +1,26 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc -p .",
+    "dev": "tsc-watch --onSuccess \"npm start\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lakshya324/TelegramBot.git"
+  },
+  "author": "Lakshya Sharma",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lakshya324/TelegramBot/issues"
+  },
+  "homepage": "https://github.com/lakshya324/TelegramBot#readme",
+  "dependencies": {
+    "tsc-watch": "^6.2.0",
+    "typescript": "^5.6.3"
+  }
+}
